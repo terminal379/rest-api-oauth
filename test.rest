@@ -1,0 +1,12 @@
+GET http://localhost:3000/llibres
+###
+
+POST http://localhost:3000/llibres
+Content-Type: application/json
+
+{
+    "nom": "The Bitcoin Standardc134234",
+    "autor": "XYZ"
+}
+
+###
