@@ -1,12 +1,35 @@
 GET http://localhost:3000/llibres
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmZDNjODVlZmU5MmI5OTcyM2IyNjkyYiIsInVzZXJuYW1lIjoibWFyaW9uYSIsImlhdCI6MTYwNzcxNTA5NX0.En1WaexUwbeU8tz2UBedePvSOugiygnV1wSmMn-8afQ
 ###
 
 POST http://localhost:3000/llibres
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmZDNjODVlZmU5MmI5OTcyM2IyNjkyYiIsInVzZXJuYW1lIjoibWFyaW9uYSIsImlhdCI6MTYwNzcxNTA5NX0.En1WaexUwbeU8tz2UBedePvSOugiygnV1wSmMn-8afQ
 
 {
     "nom": "The Bitcoin Standardc134234",
     "autor": "XYZ"
+}
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "sfsd#.focm",
+    "username": "mariona",
+    "password": "123xvfsdf"
+}
+
+###
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "sfsd#.focm",
+    "password": "123xvfsdf"
 }
 
 ###
